@@ -220,7 +220,7 @@ ORDER BY 컬럼명 [정렬형태], 컬럼명2 [정렬형태]...
 직원 이름으로 오름 차순정렬
 SELECT *
 FROM emp
-ORDER BY ename ASC;
+ORDER BY empno desc;
 
 직원 이름으로 오름 차순정렬
 SELECT *
