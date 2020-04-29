@@ -111,7 +111,7 @@ SELECT *
 FROM salgrade;
 
 SELECT emp.empno, emp.ename, emp.sal, salgrade.grade
-FROM emp JOIN salgrade ON (emp.sal BETWEEN salgrade.losal AND salgrade.hisal)
+FROM emp JOIN salgrade ON (emp.sal BETWEEN salgrade.losal AND salgrade.hisal);
 
 ==> ORACLE 조인 문법으로 변경;
 
